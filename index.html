@@ -1,23 +1,115 @@
 <!DOCTYPE html>
-<html>
+<html lang="sk">
 <head>
     <meta charset="UTF-8">
-    <title>Moje portfólio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moje Vet Portfólio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4fdfb;
+            color: #2b3e3a;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1eb59c, #0e8571);
+            padding: 60px 20px;
+            text-align: center;
+            color: white;
+        }
+
+        header h1 {
+            font-size: 40px;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        h2 {
+            color: #0e8571;
+            border-left: 6px solid #1eb59c;
+            padding-left: 10px;
+            margin-top: 40px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            margin-top: 15px;
+            border-radius: 12px;
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.05);
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        .footer {
+            text-align: center;
+            margin: 50px 0 20px;
+            color: #57736e;
+        }
+
+        .emoji {
+            font-size: 24px;
+            margin-right: 6px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Ahoj, som študent/ka veterinárnej medicíny</h1>
-    <p>Toto je moje jednoduché portfólio na GitHube.</p>
 
-    <h2>O mne</h2>
-    <p>Sem môžeš dať stručný popis o sebe, čo študuješ, čo ťa baví...</p>
+<header>
+    <h1>Moje veterinárne portfólio</h1>
+    <p>Študent/ka veterinárnej medicíny • Projekty • Skúsenosti • Záujmy</p>
+</header>
 
-    <h2>Projekty</h2>
-    <ul>
-        <li>Projekt 1</li>
-        <li>Projekt 2</li>
-    </ul>
+<div class="container">
 
-    <h2>Kontakt</h2>
-    <p>Email: tvoj@email.com</p>
+    <h2><span class="emoji">🐾</span>O mne</h2>
+    <div class="card">
+        <p>Ahoj! Som študent/ka veterinárnej medicíny a zaujímam sa najmä o parazitológiu, infekčné choroby a klinickú prax. Rada sa učím nové veci a zapájam do projektov, ktoré majú zmysel a pomáhajú zlepšovať starostlivosť o zvieratá.</p>
+    </div>
+
+    <h2><span class="emoji">🔬</span>Projekty a odborné záujmy</h2>
+    <div class="card">
+        <ul>
+            <li>Parazitologické štúdium – spracovanie otázok, cyklov a diagnóz</li>
+            <li>Účasť v projekte BestVet</li>
+            <li>Záujem o mikrobiológiu, epizootológiu a infekčné choroby</li>
+            <li>Práca so zvieratami – kliniky, ambulancie, stáže</li>
+        </ul>
+    </div>
+
+    <h2><span class="emoji">📚</span>Čo študujem</h2>
+    <div class="card">
+        <ul>
+            <li>Parazitológiu (Trypanosomatida, Eimeriózy, Nematódy...)</li>
+            <li>Infekčné choroby (tuberkulóza, mykoplazmózy, klostridiózy...) </li>
+            <li>Virológiu (adenovírusy, retrovírusy, poxvírusy...)</li>
+            <li>Epizootológiu a patológiu</li>
+        </ul>
+    </div>
+
+    <h2><span class="emoji">📄</span>Kontakt</h2>
+    <div class="card">
+        <p>Môžeš ma kontaktovať na: <b>tvoj@email.com</b></p>
+    </div>
+
+</div>
+
+<div class="footer">
+    © 2025 Moje Vet Portfólio — vytvorené cez GitHub Pages 🐾
+</div>
+
 </body>
 </html>
